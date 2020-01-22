@@ -1,0 +1,23 @@
+{
+  "name": "iig-zap-utils",
+  "version": "1.0.0",
+  "description": "utility actions for zapier",
+  "main": "index.js",
+  "dependencies": {
+    "zapier-platform-core": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imperative-information-group/iig-zap-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imperative-information-group/iig-zap-utils/issues"
+  },
+  "homepage": "https://github.com/imperative-information-group/iig-zap-utils#readme"
+}
