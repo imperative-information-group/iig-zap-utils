@@ -1,3 +1,5 @@
+const convertXml = require('./creates/convert_xml.js');
+
 // We can roll up all our behaviors in an App.
 const App = {
   // This is just shorthand to reference the installed dependencies you have. Zapier will
@@ -20,7 +22,9 @@ const App = {
   searches: {},
 
   // If you want your creates to show up, you better include it here!
-  creates: {}
+  creates: {
+    [convertXml.key]: convertXml,
+  }
 };
 
 // Finally, export the app.
