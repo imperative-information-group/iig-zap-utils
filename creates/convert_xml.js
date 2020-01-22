@@ -1,8 +1,6 @@
 const sample = require('../samples/xml');
 const xmlParser = require('fast-xml-parser');
 
-const parser = new xml2js.Parser();
-
 const convertXml = (z, bundle) => {
 
 	let xml = bundle.inputData.xml;
