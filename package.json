@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "fast-xml-parser": "^3.16.0",
-    "zapier-platform-core": "9.0.0"
+    "zapier-platform-core": "14.0.0"
   },
   "devDependencies": {
     "should": "^13.2.3"
